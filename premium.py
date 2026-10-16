@@ -7,7 +7,7 @@ from aiogram import Router, F
 from aiogram.types import Message
 
 import database as db
-from handlers.moderation import effective_role
+from moderation import effective_role
 from utils import has_at_least, can_act_on, parse_duration, resolve_target, mention
 
 router = Router()
